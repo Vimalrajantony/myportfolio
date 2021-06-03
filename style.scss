@@ -198,6 +198,34 @@ section{
         
 
     }
+    .footertext1{
+        display: flex;
+        font-size: 11px;
+        justify-content: left;
+        
+        margin: -2.7em 2em 0.5em 1em;
+        color: white;
+    }
+    .footertext2{
+        display: flex;
+        font-size: 11px;
+        justify-content: left;
+        
+        margin: -0.5em 2em 0.5em 1em;
+        // margin: 0.5em 2em 0.5em 2em;
+        color: white;
+    }
+    .footertext3{
+        display: flex;
+        // flex-direction: column;
+        justify-content: left;
+        font-size: 11px;
+        // align-items: center;
+       
+        margin: -0.5em 2em 0.5em 1em;
+        color: white;
+        text-decoration: none;
+    }
     
 }
 
@@ -314,13 +342,13 @@ section{
 
     .skills{
         // margin-top: -5em;
-        margin-bottom: -10em;
+        margin-bottom: -4em;
         padding: 4em 8em 8em 7em;
     }
     .skills-container ul{
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-gap: 1em;
+        grid-gap: 2em;
     }
     .portfolio{
         padding-top: 5em;
@@ -343,7 +371,34 @@ section{
             
     
         }
-        
+        .footertext1{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            
+            margin: 0em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext2{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            
+            font-size: 15px;
+            margin: 0em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext3{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-size: 15px;
+            // align-items: center;
+            
+            margin: -4em 0em 4em 8em;
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
@@ -465,6 +520,34 @@ section{
             
     
         }
+        .footertext1{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            // padding-left: 17em;
+            margin: 0.7em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext2{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            // padding-left: 17em;
+            font-size: 15px;
+            margin: 0.5em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext3{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-size: 15px;
+            // align-items: center;
+            // padding-left: 17em;
+            margin: -4em 2em 1em 2em;
+            color: white;
+            text-decoration: none;
+        }
         
     }
 }
@@ -481,6 +564,35 @@ section{
     }
     .hero .content{
         padding: 6em 8em 6em 10em;
+    }
+    
+    .footertext1{
+        display: flex;
+        font-size: 15px;
+        justify-content: left;
+        padding-left: 7em;
+        margin: 0.7em 2em 0.5em 2em;
+        color: white;
+    }
+    .footertext2{
+        display: flex;
+        font-size: 15px;
+        justify-content: left;
+        padding-left: 7em;
+        font-size: 15px;
+        margin: 0.5em 2em 0.5em 2em;
+        color: white;
+    }
+    .footertext3{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 15px;
+        // align-items: center;
+        padding-left:7em;
+        margin: -4em 2em 1em 2em;
+        color: white;
+        text-decoration: none;
     }
 }
 
@@ -514,7 +626,7 @@ section{
         }
     }
     .footer{
-    
+        
         background: #6700EE ;
         padding: 3em 2em 5em 2em;
         height: 4.5em;
@@ -529,6 +641,34 @@ section{
     
         }
         
+        .footertext1{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            padding-left: 17em;
+            margin: 0.7em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext2{
+            display: flex;
+            font-size: 15px;
+            justify-content: left;
+            padding-left: 17em;
+            font-size: 15px;
+            margin: 0.5em 2em 0.5em 2em;
+            color: white;
+        }
+        .footertext3{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-size: 15px;
+            // align-items: center;
+            padding-left: 17em;
+            margin: -4em 2em 1em 2em;
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
